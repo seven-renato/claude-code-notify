@@ -15,7 +15,7 @@ Get notified with a sound when:
 ## Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/seven-renato/claude-code-notify
 cd claude-code-notify
 ./setup.sh
 ```
@@ -53,7 +53,7 @@ Available macOS system sounds:
 
 ## How it works
 
-Claude Code supports [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) — shell commands that run in response to events. This project configures two hooks in `~/.claude/settings.json`:
+Claude Code supports [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks), shell commands that run in response to events. This project configures two hooks in `~/.claude/settings.json`:
 
 - **Stop** hook → plays a sound when Claude finishes responding
 - **PermissionRequest** hook → plays a sound when Claude needs your approval
